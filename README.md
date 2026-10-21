@@ -27,7 +27,7 @@ npx skills add JunNyung-Hur/korean-slop-remover
 
 다듬기를 요청하면 고친 글을 먼저 보여 드리고, 무엇을 왜 바꿨는지는 필요한 만큼만 덧붙입니다.
 
-## 고치는 기준
+## 수정 기준
 
 스킬이 보는 기준은 크게 세 가지입니다.
 
@@ -37,7 +37,9 @@ npx skills add JunNyung-Hur/korean-slop-remover
 
 셋째는 AI 문체 패턴입니다. 긴 하이픈, 3단 나열, 대구 압축, 광고 형용사, 번역투, 습관적인 끝인사, 짧은 내용에 붙인 과한 소제목과 불릿 같은 것들을 찾아 고칩니다.
 
-규칙을 기계적으로 적용하다 반대쪽 극단으로 가는 과잉 교정도 따로 점검합니다. 자세한 기준은 [SKILL.md](skills/korean-slop-remover/SKILL.md)에, 실제로 고쳐 본 전후 예시는 [examples.md](skills/korean-slop-remover/references/examples.md)에 정리해 두었습니다.
+규칙을 기계적으로 적용하다 보면 오히려 극단적으로 반응하게 되는 과잉 교정 문제도 한 번 더 점검합니다.
+
+자세한 기준은 [SKILL.md](skills/korean-slop-remover/SKILL.md)에 정리해 두었습니다. 실제로 교정한 예시는 [examples.md](skills/korean-slop-remover/references/examples.md)를 참고해 주세요.
 
 ## 기준 고치기
 
