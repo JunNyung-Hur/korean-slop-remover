@@ -41,6 +41,6 @@ npx skills add JunNyung-Hur/korean-slop-remover
 
 자세한 기준은 [SKILL.md](skills/korean-slop-remover/SKILL.md)에 정리해 두었습니다. 실제로 교정한 예시는 [examples.md](skills/korean-slop-remover/references/examples.md)를 참고해 주세요.
 
-## 기준 고치기
+## 의견 제보
 
 이 스킬은 실제로 글을 고치면서 받은 지적을 모아 만든 것이라, 쓰시다가 어색한 결과가 나오면 그 사례가 가장 좋은 재료가 됩니다. 고치기 전 문장과 원하는 문장을 이슈로 남겨 주시면 기준과 예시에 반영하겠습니다.
