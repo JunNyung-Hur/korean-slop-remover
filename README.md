@@ -18,9 +18,6 @@ Codex, Cursor 같은 다른 에이전트에서도 쓰고 싶으시다면 터미�
 ```
 npx skills add JunNyung-Hur/korean-slop-remover
 ```
-
-저장소가 비공개라서, 두 방법 모두 JunNyung-Hur 조직에 접근할 수 있는 GitHub 계정으로 로그인되어 있어야 합니다.
-
 ## 사용법
 
 설치한 뒤에는 한국어 글을 쓰거나 다듬어 달라고 하면 자동으로 적용됩니다. 직접 부르고 싶으시면 "korean-slop-remover로 이 글 다듬어 줘"처럼 말씀하시면 됩니다.
