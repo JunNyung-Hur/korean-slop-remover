@@ -27,7 +27,7 @@ npx skills add JunNyung-Hur/korean-slop-remover
 
 ## 수정 기준
 
-이슈, PR, README, 블로그, 기고문, 뉴스는 구성과 말투가 서로 달라서 문서 종류별 기준을 [references/types](skills/korean-slop-remover/references/types/)에 따로 정리해 두었습니다. 이슈를 뺀 나머지는 아직 초안이라 쓰면서 계속 고쳐 나갈 예정입니다.
+이슈, PR, README, 블로그, 기고문, 뉴스, 발표 장표는 구성과 말투가 서로 달라서 문서 종류별 기준을 [references/types](skills/korean-slop-remover/references/types/)에 따로 정리해 두었습니다. 이슈를 뺀 나머지는 아직 초안이라 쓰면서 계속 고쳐 나갈 예정입니다.
 
 모든 종류에 공통으로 보는 기준은 크게 세 가지입니다.
 
