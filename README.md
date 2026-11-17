@@ -56,6 +56,7 @@ npx skills add JunNyung-Hur/korean-slop-remover
 - [뉴스](skills/korean-slop-remover/references/types/news.md)
 - [발표 장표](skills/korean-slop-remover/references/types/presentation.md)
 - [연구 보고서](skills/korean-slop-remover/references/types/research.md)
+- [제품 소개 페이지](skills/korean-slop-remover/references/types/product-page.md)
 
 ## 의견 제보
 
