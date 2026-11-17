@@ -6,17 +6,37 @@ AI로 글을 쓰다 보면 문법은 맞는데 읽자마자 "AI가 썼구나" �
 
 ## 예시
 
-글의 종류별로 고치기 전과 후를 하나씩 골랐습니다.
+**화면 문구**
 
-| 글의 종류 | 고치기 전 | 고친 후 |
-|---|---|---|
-| 화면 문구 | 방금 이 창을 새로고침했거나 닫았다면 잠시 기다려 주세요. 20초쯤 뒤에 이어서 녹음할 수 있는 화면으로 바뀌어요. | 실수로 새로고침했다면 20초만 기다려주세요. 이어서 녹음할 수 있습니다. |
-| 사용 안내 | 이 안내가 보인 뒤에는 창을 닫으셔도 회의록 준비가 계속 진행됩니다. | 이 안내가 보인 뒤에는 창을 닫으셔도 안전합니다. |
-| 이슈 | 지금은 첨부 파일 크기를 프론트엔드에서만 확인한다. 그런데 서버는 따로 확인하지 않는다. 그래서 API를 직접 부르면 큰 파일도 올라간다. | 첨부 파일 크기는 지금 프론트엔드에서만 확인하고 서버는 따로 확인하지 않아서, API를 직접 부르면 몇 GB짜리 파일도 그대로 올라간다. |
-| 기술 문서 | 문서를 조각으로 자른 뒤 뜻 벡터로 바꿔 서랍에 넣어 둔다. | 문서를 청크로 나눠 임베딩한 뒤 벡터 DB에 저장한다. |
-| 대화 답변 | README를 수정했습니다. 요청하신 대로 3번 섹션을 분리하고 사진마다 설명을 추가했습니다. 변경 내용은 다음과 같습니다. | 3번을 "회의록 확인"과 "공유"로 나눴고, 사진마다 바로 아래에 그 화면에서 볼 것을 적었습니다. |
+고치기 전
 
-왜 그렇게 고쳤는지까지 적은 예시 28개는 [examples.md](skills/korean-slop-remover/references/examples.md)에 있습니다.
+> 방금 이 창을 새로고침했거나 닫았다면 잠시 기다려 주세요. 20초쯤 뒤에 이어서 녹음할 수 있는 화면으로 바뀌어요.
+
+고친 후
+
+> 실수로 새로고침했다면 20초만 기다려주세요. 이어서 녹음할 수 있습니다.
+
+**이슈**
+
+고치기 전
+
+> 지금은 첨부 파일 크기를 프론트엔드에서만 확인한다. 그런데 서버는 따로 확인하지 않는다. 그래서 API를 직접 부르면 큰 파일도 올라간다.
+
+고친 후
+
+> 첨부 파일 크기는 지금 프론트엔드에서만 확인하고 서버는 따로 확인하지 않아서, API를 직접 부르면 몇 GB짜리 파일도 그대로 올라간다.
+
+**기술 문서**
+
+고치기 전
+
+> 문서를 조각으로 자른 뒤 뜻 벡터로 바꿔 서랍에 넣어 둔다.
+
+고친 후
+
+> 문서를 청크로 나눠 임베딩한 뒤 벡터 DB에 저장한다.
+
+실제로 교정한 예시는 [examples.md](skills/korean-slop-remover/references/examples.md)를 참고해 주세요.
 
 ## 설치
 
@@ -41,9 +61,19 @@ npx skills add JunNyung-Hur/korean-slop-remover
 
 ## 수정 기준
 
-[이슈](skills/korean-slop-remover/references/types/issue.md), [PR](skills/korean-slop-remover/references/types/pr.md), [README](skills/korean-slop-remover/references/types/readme.md), [릴리즈 노트](skills/korean-slop-remover/references/types/release-notes.md), [블로그](skills/korean-slop-remover/references/types/blog.md), [기고문](skills/korean-slop-remover/references/types/column.md), [뉴스](skills/korean-slop-remover/references/types/news.md), [발표 장표](skills/korean-slop-remover/references/types/presentation.md), [연구 보고서](skills/korean-slop-remover/references/types/research.md)는 구성과 말투가 서로 달라서 문서 종류별 기준을 따로 정리해 두었습니다.
-
 글의 종류와 상관없이 공통으로 보는 기준은 [SKILL.md](skills/korean-slop-remover/SKILL.md)에 있습니다.
+
+구성과 말투는 문서 종류마다 달라서 종류별 기준을 따로 두었습니다.
+
+- [이슈](skills/korean-slop-remover/references/types/issue.md)
+- [PR](skills/korean-slop-remover/references/types/pr.md)
+- [README](skills/korean-slop-remover/references/types/readme.md)
+- [릴리즈 노트](skills/korean-slop-remover/references/types/release-notes.md)
+- [블로그](skills/korean-slop-remover/references/types/blog.md)
+- [기고문](skills/korean-slop-remover/references/types/column.md)
+- [뉴스](skills/korean-slop-remover/references/types/news.md)
+- [발표 장표](skills/korean-slop-remover/references/types/presentation.md)
+- [연구 보고서](skills/korean-slop-remover/references/types/research.md)
 
 ## 의견 제보
 
