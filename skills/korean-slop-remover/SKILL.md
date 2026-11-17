@@ -1,6 +1,6 @@
 ---
 name: korean-slop-remover
-description: 한국어 글에서 AI가 쓴 티(슬롭)를 걷어내고 사람이 그 매체에서 실제로 쓰는 글로 쓰거나 고친다. README, 블로그, 공지, 릴리즈 노트, 사내 문서, 이슈와 PR 댓글, 커밋 메시지, 화면 문구, 메신저 공지, 대화 답변 등 한국어 글을 새로 쓰거나 다듬을 때 사용한다. 사용자가 "AI 같다", "기계 같다", "영혼이 없다", "슬롭", "사람처럼 써 줘", "자연스럽게 고쳐 줘"라고 할 때도 사용한다. Use when writing or editing any Korean prose so it reads like a person wrote it, not an AI.
+description: 한국어 글을 AI가 쓴 티가 나지 않게 쓰거나 고친다. README, 블로그, 공지, 릴리즈 노트, 사내 문서, 이슈와 PR 댓글, 커밋 메시지, 화면 문구, 메신저 공지, 대화 답변 등 한국어 글을 새로 쓰거나 다듬을 때 사용한다. 사용자가 "AI 같다", "기계 같다", "영혼이 없다", "슬롭", "사람처럼 써 줘", "자연스럽게 고쳐 줘"라고 할 때도 사용한다. Use when writing or editing any Korean prose so it reads like a person wrote it.
 ---
 
 # Korean Slop Remover
