@@ -9,7 +9,7 @@
     {
       "name": "korean-slop-remover",
       "description": "한국어 글을 AI가 쓴 티가 나지 않게 쓰거나 고치는 스킬",
-      "version": "1.9.6",
+      "version": "1.9.7",
       "source": "./",
       "category": "productivity"
     }
